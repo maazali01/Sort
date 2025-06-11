@@ -1,0 +1,15 @@
+{
+  "files": [
+    "./jest.setup.ts"
+  ],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "include": [
+    "src",
+    "jest.setup.ts",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
+}
